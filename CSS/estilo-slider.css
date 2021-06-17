@@ -1,0 +1,65 @@
+#div-slider{
+  margin-left: 20px;
+  width: 40%;
+  float: left;
+}
+.container-slider{
+  height: 300px;
+  max-width: 900px;
+  overflow: hidden;
+  border: 10px solid lightgrey;
+  position: relative;
+}
+body.dark .container-slider{
+  border: 10px solid rgb(73, 73, 73);
+}
+.slider{
+  display: flex;
+  width: 500%;
+  height: 300px;
+  margin-left: -100%;
+}
+.slider-section{
+  width: 100%;
+}
+.slider-img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.boton-slider{
+  cursor: pointer;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-family: monospace;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 25px;
+}
+.boton-slider:hover{
+  background-color: white;
+}
+#boton-der{
+  right: 5px;
+}
+#boton-izq{
+  left: 5px;
+}
+.piedefoto{
+  line-height: 30px;
+  color: white;
+  font-weight: bolder;
+  margin-left: 10px;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+}

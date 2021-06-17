@@ -1,0 +1,49 @@
+#reloj{
+    color: black;
+    height: 210px;
+    width: 100%;
+    display: inline-table;
+}
+#proximo-cap{
+    margin-top: 20px;
+    color: rgb(52, 149, 209);
+    font-weight: bolder;
+}
+#navRelojito{
+    display: table-cell;
+    vertical-align: middle;
+}
+#navRelojito ul{
+    display: flex;
+    justify-content: center;
+}
+#días, #horas, #mins, #segs{
+    background-color: rgb(109, 178, 221);
+    border: rgb(109, 178, 221) solid 1px;
+    border-radius: 5px;
+}
+body.dark #días, body.dark #horas, body.dark #mins, body.dark #segs{
+    color: lightgrey;
+    background-color: rgb(21, 89, 131);
+    border: rgb(21, 89, 131) solid 1px;
+}
+.liRelojito {
+    border: rgb(52, 149, 209) solid 10px;
+    border-radius: 5px;
+    background-color: rgb(52, 149, 209);
+    font-size: 30px;
+    font-weight: bolder;
+    list-style: none;
+    margin: 10px;
+    float: left;
+    box-shadow: 10px 10px 5px gray ;
+}
+body.dark .liRelojito{
+    border: rgb(0, 50, 82) solid 10px;
+    background-color: rgb(0, 50, 82);
+    box-shadow: 10px 10px 5px black;
+    color: lightgrey;
+}
+.miniNavRelojito{
+    text-align: center;
+}

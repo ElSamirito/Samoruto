@@ -1,0 +1,254 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body.dark{
+    background: rgb(54, 54, 54);
+}
+header{
+    background: linear-gradient(rgb(97, 194, 255),rgb(40, 135, 194));
+    height: 85px;
+}
+body.dark header{
+    background: linear-gradient(rgb(21, 89, 131),rgb(0, 50, 82))
+}
+/*Este chorizo es para el borde del h1 y h2*/
+header h1, h2{
+    padding-left: 60px;
+    font-family: 'Fredoka One';
+    text-shadow: 1px 1px #fff,
+    -1px 1px #fff,
+    1px -1px #fff,
+    -1px -1px #fff,
+    0px 1px #fff,
+    0px -1px #fff,
+    -1px 0px #fff,
+    1px 0px #fff,
+    2px 2px #fff,
+    -2px 2px #fff,
+    2px -2px #fff,
+    -2px -2px #fff,
+    0px 2px #fff,
+    0px -2px #fff,
+    -2px 0px #fff,
+    2px 0px #fff,
+    1px 2px #fff,
+    -1px 2px #fff,
+    1px -2px #fff,
+    -1px -2px #fff,
+    2px 1px #fff,
+    -2px 1px #fff,
+    2px -1px #fff,
+    -2px -1px #fff;
+}
+header h1{
+    color:rgb(255, 123, 0);
+}
+#encabezado{
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 6px;
+    background: linear-gradient(rgb(97, 194, 255),rgb(40, 135, 194));
+    border-bottom: white solid 1px;
+}
+body.dark #encabezado{
+    background: linear-gradient(rgb(21, 89, 131),rgb(0, 50, 82));
+    border-bottom:black;
+}
+#loguito{
+    float: left;
+    max-width: 50px;
+    height: auto;
+}
+#Secciones nav ul{
+    text-align: center;
+    background-color: rgb(204, 204, 204);    
+}
+body.dark #Secciones nav ul{
+    background-color: rgb(73, 73, 73);
+}
+.enlaces{
+    padding: 10px 10px 12px 10px;
+}
+#Secciones nav ul li{
+    vertical-align: middle;
+    height: 40px;
+    color: black;
+    list-style: none;
+    display: inline;
+}
+body.dark #Secciones nav ul li{
+    color: white;
+}
+/*Para que cambie el color de las letras y haga un tipo de señalador al pasar el cursor encima de cada sección*/
+.enlaces:hover{
+    vertical-align: middle;
+    background-color: rgb(185, 185, 185);
+}
+body.dark .enlaces:hover, body.dark #Secciones nav ul li a:hover{
+    background-color: rgb(85, 85, 85);
+}
+#Secciones nav ul li a{
+    height: 40px;
+    font-size: 13px;
+    color: black;
+}
+body.dark #Secciones nav ul li a{
+    color: white;
+}
+#Secciones nav ul li a strong{
+    line-height: 40px;
+}
+.clearfix{
+    clear: both;
+}
+section article h3{
+    margin-top: 20px;
+    color: rgb(52, 149, 209);
+}
+/*-------------------Empieza Listado Capítulos--------------------------------------*/
+#Programacion-Reciente ul li a, #Programacion-Reciente ul li p{   
+    font-size: 15px;
+}
+#Programacion-Reciente ul li a{
+    height: 15px;
+    color: rgb(52, 149, 209);
+    font-weight: bolder;
+}
+#Programacion-Reciente ul li p{
+    margin-top: 10px;
+    height: 15px;
+}
+body.dark #Programacion-Reciente ul li p{
+    color: white;
+}
+#Programacion-Reciente ul li{
+    padding: 10px;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+}
+body.dark #Programacion-Reciente ul li{
+    border-bottom: 1px solid rgb(73, 73, 73);
+}
+#Programacion-Reciente ul li img{
+    clear: left;
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+}
+#Programacion-Reciente ul{
+    list-style: none;
+}
+#div-10-latest-list{
+    margin-left: 10px;
+    float: left;
+}
+#Programacion-Reciente{
+    border: 10px solid lightgrey;
+    float: left;
+}
+body.dark #Programacion-Reciente{
+    border: 10px solid rgb(73, 73, 73);
+}
+/*-------------------Empieza Listado Películas--------------------------------------*/
+#Ultimas-Peliculas ul li a, #Ultimas-Peliculas ul li p{   
+    font-size: 15px;
+}
+#Ultimas-Peliculas ul li a{
+    height: 15px;
+    color: rgb(52, 149, 209);
+    font-weight: bolder;
+}
+#Ultimas-Peliculas ul li p{
+    margin-top: 10px;
+    height: 15px;
+}
+body.dark #Ultimas-Peliculas ul li p{
+    color: white;
+}
+#Ultimas-Peliculas ul li{
+    padding: 10px;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+}
+body.dark #Ultimas-Peliculas ul li{
+    border-bottom: 1px solid rgb(73, 73, 73);
+}
+#Ultimas-Peliculas ul li img{
+    clear: left;
+    float: left;
+    width: 70px;
+    height: 50px;
+    margin-right: 10px;
+}
+#Ultimas-Peliculas ul{
+    list-style: none;
+}
+#Pelis{
+    margin-left: 10px;
+    float: left;
+}
+#Ultimas-Peliculas{
+    border: 10px solid lightgrey;
+    float: left;
+}
+body.dark #Ultimas-Peliculas{
+    border: 10px solid rgb(73, 73, 73);
+}
+/*-------------------Empieza Footer--------------------------------------*/
+#espacioBlanco{
+    clear: both;
+    height: 30px;
+}
+#prevFooter{
+    background: linear-gradient(rgb(97, 194, 255),rgb(40, 135, 194));
+    font-size: 15px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    border-bottom: solid rgb(40, 135, 194) 5px;
+    border-top: rgb(97, 194, 255) solid 5px;
+}
+body.dark #prevFooter{
+    border-bottom: solid 5px rgb(0, 50, 82);
+    border-top: solid 5px rgb(21, 89, 131);
+    background: linear-gradient(rgb(21, 89, 131),rgb(0, 50, 82));
+}
+#redes{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#redes a, #linkTioZona{
+    color: white;
+    text-decoration: underline;
+}
+#redes a:hover, #linkTioZona:hover{
+    color: rgb(212, 212, 212);
+}
+#redes li{
+    margin: 5px;
+    float: left;
+}
+#prevFooter p{
+    clear: both;
+}
+footer{
+    border-top: solid white 1px;
+    background-color: rgb(40, 135, 194);
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+    clear: both;
+    text-align: center;
+}
+body.dark footer{
+    border-top: solid black 1px;
+    background-color: rgb(0, 50, 82);
+}
