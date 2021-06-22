@@ -120,6 +120,9 @@ section article h3{
     color: rgb(52, 149, 209);
     font-weight: bolder;
 }
+#Programacion-Reciente ul li a:hover{
+    color: rgb(116, 194, 243);
+}
 #Programacion-Reciente ul li p{
     margin-top: 10px;
     height: 15px;
@@ -164,6 +167,9 @@ body.dark #Programacion-Reciente{
     height: 15px;
     color: rgb(52, 149, 209);
     font-weight: bolder;
+}
+#Ultimas-Peliculas ul li a:hover{
+    color: rgb(116, 194, 243);
 }
 #Ultimas-Peliculas ul li p{
     margin-top: 10px;
